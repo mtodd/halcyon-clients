@@ -1,0 +1,42 @@
+= Halcyon
+== Clients
+
+This repository is specifically for providing numerous non-Ruby clients for
+Halcyon applications. This is useful for when you have several non-Ruby apps
+you'd like to connect to a Halcyon application for some specific task.
+
+For example, you may have some legacy PHP applications that need to pull some
+data from an Oracle database but you have LDAP already installed (and if you
+are familiar with PHP, you may realize that this is actually a problem), you
+can offload the task to a Ruby application as well as use the Halcyon app to
+centralize numerous other similar tasks for other applications as well.
+
+
+== Repository
+
+The Client repository is also located at GitHub. To get access to the clients,
+clone the repository like so:
+
+  $ git clone git://github.com/mtodd/halcyon-clients.git
+
+The web address for the repository is http://github.com/mtodd/halcyon-clients.
+
+
+== Contributions
+
+* Chris Hansen, contributed the Java client
+* Ben Simpson, bug fixes for the PHP client
+
+
+== Authors
+
+* Matt Todd <chiology@gmail.com>
+
+Also, see Contributions.
+
+
+== License
+
+All clients are licensed under the MIT License unless otherwise noted.
+
+The license can be read at http://www.opensource.org/licenses/mit-license.php.
